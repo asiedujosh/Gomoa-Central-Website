@@ -1,0 +1,221 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family:segoe,segoe UI, DejaVu Sans, trebuchet Ms,
+	verdana, "sans- serif";
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: #fff;
+	overflow-x: hidden;
+	background:#dddddd ;
+
+}
+
+.video_header{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	color: aliceblue;
+}
+
+.wrap{
+	max-width: 960px;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin: auto;
+	text-align: center;
+}
+
+.fullscreen-video-wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+.fullscreen-video-wrap video{
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.header-overlay{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(34, 33, 33, 0.0);
+	opacity: 0.90;
+}
+
+.header-content{
+	z-index: 2;
+	margin-top: 25%;
+	padding: 0.5rem;
+}
+
+.header-content h5{
+	font-size: 2em;
+	margin-bottom: 0;
+}
+.header-content hr {
+    border-color: #ddd;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.header-content p{
+	font-size: 1em;
+	display: block;
+	padding-bottom: 2rem;
+	margin-top: 10px;
+}
+
+.my-btn{
+	padding: 1rem 1rem;
+}
+.btn, .form-control, .team-socials i {
+    border-radius: 5px !important;
+}
+
+.button-outline {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    color: #fff;
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(255,255,255,0.15);
+}
+
+    .button-outline:hover {
+        color: #fff;
+        background: rgba(255,255,255,0.35);
+    }
+
+a {
+    color: #CC4646;
+    text-decoration: none;
+    text-shadow: none;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+    a:hover {
+        color: #DF3927;
+        text-decoration: none;
+    }
+
+.btn {
+    border: 0px;
+    border-radius: 0px;
+}
+.btn:hover {
+background: #E24040;
+}
+
+.btn-primary {
+    background: #CC4646;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.mrgn30 {
+    margin: 30px 0;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #CC4646;
+    background-color: #CC4646;
+}
+.header .navbar {
+margin: 0;
+background: transparent !important;
+}
+    .navbar-inverse .navbar-toggle .icon-bar {
+        /*background-color: #CC4646;*/;
+    }
+
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+        background: #CC4646;
+    }
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #CC4646;
+}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar {
+    background: #fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #FFB8B8;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+color: #FFFFFF;
+background: none;
+}	
+.navbar-toggle {
+}
+.header .navbar-brand {
+    float: left;
+    padding: 16px 15px;
+    line-height: 18px;
+    height: 50px;
+    /*color:#CC4646;*/;
+}
+
+.navbar-brand b {
+    color: #fff;
+	font-family: 'Pacifico', cursive;
+	font-weight:400;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: none;
+}
+
+.navbar-nav > li:hover > a {
+    color: #fff;
+}
+
+.header .navbar-nav > li > a {
+    padding: 25px 18px;
+    text-transform: uppercase;
+}
+.section{
+	text-align:;
+	margin-top: 60%;
+	color: #333;
+	font-size:1em;
+	position: absolute;
+}
+.section h5{
+	text-align: ;
+	font-size:1.5em;
+}
+
+
+@media(max-width:768px){
+	.header-content h1{font-size: 40px;}
+	.header-content p{font-size: 1rem;}
+	.section {font-size: 1rem;}
+	.section section-a{position: absolute;}
+	
+	
+}
